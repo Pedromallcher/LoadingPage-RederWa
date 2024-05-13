@@ -1,0 +1,107 @@
+/* Estilo para todas as telas */
+
+/* Estilo específico para telas com largura mínima de 768px */
+@media only screen and (max-width: 768px) {
+  * {
+      background-color: #000D3F;
+      margin: 0;
+      border: 0;
+      color: white;
+  }
+
+  .box-content {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 50vh;
+  }
+
+  .box-img {
+      background-image: url(../../../assets/walpepr-sobre.jpg);
+      background-position: center;
+      background-size: cover;
+      border-radius: 20px;
+      margin-left: 2.5vh;
+      height: 16vh;
+      width: 90vw;
+      margin-top: 2vh;
+  }
+
+  .titulo {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+     
+     
+  }
+
+  .titulo span {
+      color: aqua;
+  }
+
+  .txt-box {
+      margin-top: 3vh;
+      width: 90vw;
+      margin-left: 2.5vh;
+      text-align: justify;
+     
+      
+  }
+
+  .txt-box p {
+      margin-top: 2vh;
+      font-size: 17px;
+      margin-bottom: 3vh;
+      word-spacing: normal;
+      letter-spacing: -1px; 
+  }
+
+  .content {
+      flex-direction: column;
+      margin-left: 4vh;
+      display: flex;
+  }
+
+  .bloco {
+      border-radius: 15px;
+      width: 90%;
+      height: 30vh;
+      border: 1px solid rgba(255, 255, 255, 0.337);
+      background-image: url(../../../assets/fundo-person.jpg);
+      float: left;
+      margin: 2% 1%;
+  }
+
+  .bloco img {
+      margin-top: 1vh;
+      background-color: transparent;
+      height: 15vh;
+  }
+
+  .bloco h4 {
+      margin-top: 0.2vw;
+      background-color: transparent;
+  }
+
+  .box-share-person {
+      height: 7.8vh;
+      justify-content: center;
+      width: 23vh;
+      align-items: center;
+      margin-left: 17vw;
+      margin-top: 1.5vw;
+      background-color: rgb(122, 137, 179);
+      border-radius: 15px;
+  }
+
+  .box-share-person img {
+      height: 48px;
+  }
+
+  .box-share-person a {
+      background-color: transparent;
+  }
+
+  
+}

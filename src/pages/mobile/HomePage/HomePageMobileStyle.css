@@ -1,0 +1,101 @@
+
+
+@media only screen and (max-width: 768px) {
+
+
+    *{
+        margin: 0;
+        border: 0;
+        box-sizing: border-box;
+    }
+    
+
+
+.content-homePage{
+    align-items: center;
+    justify-content: center;
+    height: 200vw;
+    background-color: #000D3F;
+    width: 100vw;
+
+}
+
+.content-homePage-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7px;
+  text-align: center;
+  color: white;
+}
+
+.text-title{
+   
+    width: 42vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  text-align: center;
+
+}
+
+.text-title span{
+   color: rgb(0, 234, 255);
+}
+
+
+
+
+
+
+
+.content-homePage-txt p{
+    margin-top: 10px;
+   
+  }
+
+  
+  
+
+
+
+
+
+
+
+
+
+.btn-mobile-visite {
+    margin-top: 20px;
+    color: white;
+    background-color: #112dbc;
+    padding: 15px;
+    border-radius: 5.73px;
+    font-size: 1em; 
+    }
+
+    .line {
+        border: 1px solid rgb(255, 255, 255);
+        height: 0px;
+        width: 90px;
+        align-items: center;
+        display: flex;
+        align-content: center;
+        margin: 20px;
+        
+        }
+    .social {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px; 
+    padding-bottom: 20px;
+    }
+    
+    .social img {
+    height: 40px;
+    margin: 10px;
+    }
+
+}

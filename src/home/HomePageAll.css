@@ -1,0 +1,22 @@
+
+
+
+@media screen and (min-width: 768px) {
+    .desktop-all {
+        display: none;
+    }
+
+    .mobile {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop-all {
+        display: flex;
+    }
+}

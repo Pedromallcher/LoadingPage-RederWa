@@ -1,0 +1,124 @@
+
+
+
+@media screen and (min-width: 1025px){
+
+
+
+.header-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background-color: #000D3F;
+}
+
+
+.logo-homepage-desktop {
+    height: 100px;
+    padding-left: 10vh;
+    padding-top: 10px;
+}
+
+.navbar-desktop {
+    margin-left: 90px;
+    padding: 20px;
+    
+
+}
+
+
+.navbar-desktop a{
+    color: white;
+    padding: 7px 7px;
+    margin: 19px;
+    font-size: 17px;
+ 
+}
+
+
+.navbar-desktop a:hover{
+  
+  border-radius: 10px;
+  background-color: #2141e0f8;
+  color: white;
+
+}
+
+
+
+
+/*Botoes no Header */
+.btns-header{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  margin-right: 7vh;
+
+
+}
+
+
+.btn-contato{
+  background-color: transparent;
+  width: 30vh;
+  font-size: 15px;
+  color: white;
+  height: 30px;
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+ align-items: center;
+  border-radius: 6px;
+  margin-top: 2.5vh;
+  
+}
+
+.btn-contato:hover{
+  background-color: #2141e0f8;
+  border: none;
+
+}
+
+
+
+.btn-redirecionar-login{
+  background-color: #2141e0f8;
+  width: vh;
+  font-size: 15px;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
