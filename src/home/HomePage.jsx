@@ -12,17 +12,17 @@ function HomePage() {
     };
 
     useEffect(() => {
-        handleResize(); // Chama a função handleResize imediatamente após a montagem do componente
+        handleResize();
 
-        // Simula manualmente o evento de redimensionamento da janela
+       
         window.dispatchEvent(new Event('resize'));
 
         window.addEventListener('resize', handleResize);
 
-        // Simula um tempo de carregamento com setTimeout (pode ser substituído por uma chamada de API)
+        
         setTimeout(() => {
-            setIsLoading(false); // Define isLoading como falso após o tempo de carregamento simulado
-        }, 2000); // Tempo de carregamento simulado de 2 segundos
+            setIsLoading(false); 
+        }, 2000);
 
         return () => {
             window.removeEventListener('resize', handleResize);
@@ -30,22 +30,22 @@ function HomePage() {
     }, []);
 
     const switchToDesktopVersion = () => {
-        setIsMobile(false); // Define isMobile como falso para exibir a versão desktop
+        setIsMobile(false); 
     };
 
     const switchToMobileVersion = () => {
-        setIsMobile(true); // Define isMobile como verdadeiro para exibir a versão móvel
+        setIsMobile(true); 
     };
 
     return (
         <div>
-            {isLoading ? ( // Mostra a tela de carregamento se isLoading for verdadeiro
+            {isLoading ? ( 
                 <LoadingScreen />
             ) : (
                 <div>
-                    {isMobile ? ( // Mostra a versão móvel se isMobile for verdadeiro
+                    {isMobile ? ( 
                         <Mobile switchToDesktop={switchToDesktopVersion} />
-                    ) : ( // Mostra a versão desktop se isMobile for falso
+                    ) : ( 
                         <Desktop switchToMobile={switchToMobileVersion} />
                     )}
                 </div>
