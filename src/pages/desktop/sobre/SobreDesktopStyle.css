@@ -1,0 +1,125 @@
+
+
+@media  screen and (min-width: 1025px) {
+
+
+    .content-blocos{
+        display: flex;
+        justify-content: center;
+        height: 73.1vh;
+        margin-top: 15px;
+    
+
+    }
+
+
+    .blocos{
+        width: 40vh;
+     
+        float: left;
+        margin: 0 1%;
+    }
+
+    
+    .fieldset{
+        border: 2px solid  rgba(9, 186, 165, 0.498);
+        background-color: rgba(22, 60, 120, 0.685);
+        height: 65vh;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      
+        
+    }
+
+
+    .fieldset legend{
+       width: auto;
+      
+       
+    }
+
+    .fieldset p{
+        display: flex;
+        align-items: center;
+        color: rgb(255, 255, 255);
+       text-align: center;
+        
+       
+       
+     }
+
+
+
+    .fieldset img{
+        height: 50px;
+       border: 2px transparent;
+        border-radius: 15px;
+       
+        
+        
+
+    }
+
+
+    .content-box-developer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+      
+    }
+
+    .developers{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        margin: 4% 2%;
+        background-image: url(../../../assets//fundo-person.jpg);
+        background-color: red;
+        width: 30vh;
+        height: 15vh;
+        border-radius: 20px;
+        
+
+
+    }
+
+    .developers-content-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1vh;
+       
+    }
+
+
+    .developers-content-box img{
+        margin-top: 9px;
+       
+    }
+
+    .developers-content-box-txt{
+        margin: 2vh;
+       
+
+    }
+
+    .developers-content-box-txt img{
+       height: 30px;
+       margin-top: 4px;
+
+    }
+
+    .icons-social{
+        align-content: center;
+        background-color: #cbc9c98d;
+        border-radius: 6px;
+    }
+
+
+
+    
+}
